@@ -1,0 +1,23 @@
+type: theme
+base theme: bootstrap
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+name: 'Excel Communications'
+description: 'Created by Rick Zebra Designs LLC'
+package: 'Bootstrap'
+
+regions:
+  toparea:  'Top Area'
+  header: 'Header Area'
+  sliderarea: 'Slider Area' 
+  welcomearea:  'Welcome Area'
+  maparea:  'Map Area'   
+  introarea:  'Intro Area'
+  workarea: 'Work Area'
+  contactform:  'Contact Form' 
+  footer: 'Footer'
+
+libraries-extend:
+  bootstrap/framework:
+    - excel/framework
